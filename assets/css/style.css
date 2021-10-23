@@ -68,14 +68,11 @@
 
   footer{
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     flex-wrap: wrap;
     background: var(--primary-color);
     width: 100%;
     padding: 40px 35px;
   }
 
-  div .contact-me-container{
-    align-items: flex-start;
-  }
 
