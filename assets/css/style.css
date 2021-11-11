@@ -110,13 +110,71 @@ footer{
   font-size: 20px;
 
 }
-.about-me-info div, .work-wraper .child-item, .contact-wraper div{
+.about-me-info div, .work-wraper .images, .contact-wraper div{
   max-width: 65%;
   padding: 10px;
   border-left: 4px solid black;
 }
 
+.image-one{
+  background-image: url(../images/full-stack-web-development..gif);
+  background-position: center;
+  background-size: cover;
+  width: 830px;
+  height: 500px;
+  margin: 15px;
 
+}
+
+.image-two{
+  background-image: url(../images/full-stack-web-development..gif);
+  background-position: center;
+  background-size: cover;
+  height: 200px;
+  width: 400px;
+  margin: 15px;
+
+}
+
+
+.image-three{
+  background-image: url(../images/full-stack-web-development..gif);
+  background-position: center;
+  background-size: cover;
+  height: 200px;
+  width: 400px;
+  margin: 15px;
+
+}
+
+.image-four{
+  background-image: url(../images/full-stack-web-development..gif);
+  background-position: center;
+  background-size: cover;
+  height: 200px;
+  width: 400px;
+  margin: 15px;
+
+}
+
+.image-five{
+  background-image: url(../images/full-stack-web-development..gif);
+  background-position: center;
+  background-size: cover;
+  height: 200px;
+  width: 400px;
+  margin: 15px;
+
+}
+
+.work-wraper > div {
+  /* styles for your image elements */
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  }
+
+/* 
 #main{
   background-image: url(../images/full-stack-web-development..gif);
   background-position: center;
@@ -195,7 +253,7 @@ footer{
   border: 3px solid black;
   text-decoration: none;
 
-}
+} */
 
 a {
   text-decoration: none;
@@ -205,16 +263,16 @@ a {
 
 
 
-.child-item{
+/* .child-item{
   display: flex;
   flex-wrap: wrap;
-}
+} */
 
-#main{
+/* #main{
   width: 830px;
   height: 500px;
   
-}
+} */
 
 .contact-info, ul, li{
   display: flex;
@@ -248,10 +306,11 @@ a {
   
   }
 
-  #main {
+  .image-one{
     width:100%;
     height: 200px;
   }
+
   
 
   .hero{
@@ -278,13 +337,12 @@ a {
   }
 } */
 
-/* @media screen and (max-width:575px){
+@media screen and (max-width:575px){
 
-  #main{
+  /* .work-wraper .images{
     height: 200px;
     width: 400px;
-   
-  }
-} */
+  } */
+}
 
 
