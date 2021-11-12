@@ -290,13 +290,14 @@ a {
 
 @media screen and (max-width:880px) {
 
+
   .about-me-info, .work-wraper, .contact-wraper{
     flex-direction: column;
     align-items: center;
   
   
   }
-  .about-me-info div, .work-wraper .child-item, .contact-wraper div{
+  .about-me-info div, .work-wraper .images, .contact-wraper div{
     border-left: none;
     border-top: 4px solid black;
   }
@@ -335,14 +336,19 @@ a {
     width:830px;
     height: 500px;
   }
-} */
-
-@media screen and (max-width:575px){
-
-  /* .work-wraper .images{
-    height: 200px;
-    width: 400px;
-  } */
 }
+
+/* @media screen and (max-width:575px){
+
+  .image-two{
+    width: 320px;
+    height: 200px;
+  }
+  .images{
+    width: 320px;
+    padding-left: 10px;
+  
+  }
+}  */
 
 
