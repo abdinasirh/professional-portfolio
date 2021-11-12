@@ -96,7 +96,7 @@ footer{
 
 
 
-.about-me-info, .work-wraper, .contact-wraper{
+.about-me-info, .contact-wraper{
   margin-top: 40px;
   /* margin-left: 10px; */
   display: flex;
@@ -110,19 +110,46 @@ footer{
   font-size: 20px;
 
 }
-.about-me-info div, .work-wraper .images, .contact-wraper div{
+.about-me-info div,  .contact-wraper div{
   max-width: 65%;
   padding: 10px;
   border-left: 4px solid black;
 }
 
+.work-wraper{
+  display: flex;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.images{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+
+}
+.main-image{
+  flex-direction: row;
+  width: 80%;
+}
+
+.other-images{
+  display: flex;
+  width: 80%;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+  margin-top: 15px;
+}
+
 .image-one{
   background-image: url(../images/full-stack-web-development..gif);
   background-position: center;
-  background-size: cover;
-  width: 830px;
-  height: 500px;
-  margin: 15px;
+  background-size:auto;
+  height: 40vh;
+  width: 45%;
+  /* margin: 15px; */
+  flex: 1 0 45%;
+  
 
 }
 
@@ -130,9 +157,12 @@ footer{
   background-image: url(../images/full-stack-web-development..gif);
   background-position: center;
   background-size: cover;
-  height: 200px;
-  width: 400px;
-  margin: 15px;
+  height: 30vh;
+  /* width: 45%; */
+  /* margin: 15px; */
+  flex: 1 0 45%;
+  
+  
 
 }
 
@@ -141,9 +171,11 @@ footer{
   background-image: url(../images/full-stack-web-development..gif);
   background-position: center;
   background-size: cover;
-  height: 200px;
-  width: 400px;
-  margin: 15px;
+  height: 30vh;
+  /* width: 45%; */
+  /* margin: 15px; */
+  flex: 1 0 45%;
+  margin: 0 auto;
 
 }
 
@@ -151,9 +183,11 @@ footer{
   background-image: url(../images/full-stack-web-development..gif);
   background-position: center;
   background-size: cover;
-  height: 200px;
-  width: 400px;
-  margin: 15px;
+  height: 30vh;
+  /* width: 45%; */
+  /* margin: 15px; */
+  flex: 1 0 45%;
+  margin: 0 auto;
 
 }
 
@@ -161,118 +195,20 @@ footer{
   background-image: url(../images/full-stack-web-development..gif);
   background-position: center;
   background-size: cover;
-  height: 200px;
-  width: 400px;
-  margin: 15px;
+  height: 30vh;
+  /* width: 40%; */
+  /* margin: 15px; */
+  flex: 1 0 45%;
+  margin: 0 auto;
 
 }
 
-.work-wraper > div {
-  /* styles for your image elements */
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  }
-
-/* 
-#main{
-  background-image: url(../images/full-stack-web-development..gif);
-  background-position: center;
-  background-size: cover;
-  height: 200px;
-  width: 400px;
-  margin: 15px;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-end;
-  justify-content: flex-start;
-
-}
-
-.child-one{
-  background-image: url(../images/passGen.jpeg);
-  background-position: center;
-  background-size: cover;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-end;
-  justify-content: flex-start;
-  height: 200px;
-  width: 400px;
-  margin: 15px;
-
-}
-
-.child-two{
-  background-image: url(../images/run-buddy.jpeg);
-  background-position: center;
-  background-size: cover;
-  height: 200px;
-  width: 400px;
-  margin: 15px;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-end;
-  justify-content: flex-start;
-
-}
-
-.child-three{
-  background-image: url(../images/full-stack-web-development..gif);
-  background-position: center;
-  background-size: cover;
-  height: 200px;
-  width: 400px;
-  margin: 15px;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-end;
-  justify-content: flex-start;
-
-}
-.child-four{
-  background-image: url(../images/full-stack-web-development..gif);
-  background-position: center;
-  background-size: cover;
-  height: 200px;
-  width: 400px;
-  margin: 15px;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-end;
-  justify-content: flex-start;
-
-}
-
-.lower-text{
-  margin-bottom: 10px;
-  margin-left: 10px;
-  background-color: var(--tertiary-color);
-  padding: 10px;
-  color: var(--primary-color);
-  border: 3px solid black;
-  text-decoration: none;
-
-} */
 
 a {
   text-decoration: none;
 }
 
 
-
-
-
-/* .child-item{
-  display: flex;
-  flex-wrap: wrap;
-} */
-
-/* #main{
-  width: 830px;
-  height: 500px;
-  
-} */
 
 .contact-info, ul, li{
   display: flex;
@@ -307,11 +243,6 @@ a {
   
   }
 
-  .image-one{
-    width:100%;
-    height: 200px;
-  }
-
   
 
   .hero{
@@ -329,26 +260,6 @@ a {
 
   
 }
-/* 
-@media screen and (max-width:1200px){
 
-  #main{
-    width:830px;
-    height: 500px;
-  }
-}
-
-/* @media screen and (max-width:575px){
-
-  .image-two{
-    width: 320px;
-    height: 200px;
-  }
-  .images{
-    width: 320px;
-    padding-left: 10px;
-  
-  }
-}  */
 
 
