@@ -137,8 +137,8 @@ footer{
   display: flex;
   width: 80%;
   flex-wrap: wrap;
-  /* justify-content: space-between; */
-  margin-top: 15px;
+  justify-content: space-between;
+  margin-top: 20px;
 }
 
 .image-one{
@@ -146,9 +146,9 @@ footer{
   background-position: center;
   background-size:auto;
   height: 40vh;
-  width: 45%;
+  /* width: 45%; */
   /* margin: 15px; */
-  flex: 1 0 45%;
+  flex: 1 0 80%;
   
 
 }
@@ -160,7 +160,7 @@ footer{
   height: 30vh;
   /* width: 45%; */
   /* margin: 15px; */
-  flex: 1 0 45%;
+  flex: 1 0 35%;
   
   
 
@@ -174,8 +174,8 @@ footer{
   height: 30vh;
   /* width: 45%; */
   /* margin: 15px; */
-  flex: 1 0 45%;
-  margin: 0 auto;
+  flex: 1 0 35%;
+  /* margin: 0 auto; */
 
 }
 
@@ -186,8 +186,8 @@ footer{
   height: 30vh;
   /* width: 45%; */
   /* margin: 15px; */
-  flex: 1 0 45%;
-  margin: 0 auto;
+  flex: 1 0 35%;
+  /* margin: 0 auto; */
 
 }
 
@@ -198,8 +198,8 @@ footer{
   height: 30vh;
   /* width: 40%; */
   /* margin: 15px; */
-  flex: 1 0 45%;
-  margin: 0 auto;
+  flex: 1 0 35%;
+  /* margin: 0 auto; */
 
 }
 
