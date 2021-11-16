@@ -110,7 +110,7 @@ footer{
   font-size: 20px;
 
 }
-.about-me-info div,  .contact-wraper div{
+.about-me-info div, .work-wraper .images, .contact-wraper div{
   max-width: 65%;
   padding: 10px;
   border-left: 4px solid black;
@@ -137,17 +137,17 @@ footer{
   display: flex;
   width: 80%;
   flex-wrap: wrap;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   margin-top: 20px;
 }
 
 .image-one{
   background-image: url(../images/full-stack-web-development..gif);
   background-position: center;
-  background-size:auto;
+  background-size: cover;
   height: 40vh;
   /* width: 45%; */
-  /* margin: 15px; */
+  margin: 15px;
   flex: 1 0 80%;
   
 
@@ -159,7 +159,7 @@ footer{
   background-size: cover;
   height: 30vh;
   /* width: 45%; */
-  /* margin: 15px; */
+  margin: 15px;
   flex: 1 0 35%;
   
   
@@ -173,7 +173,7 @@ footer{
   background-size: cover;
   height: 30vh;
   /* width: 45%; */
-  /* margin: 15px; */
+  margin: 15px;
   flex: 1 0 35%;
   /* margin: 0 auto; */
 
@@ -185,7 +185,7 @@ footer{
   background-size: cover;
   height: 30vh;
   /* width: 45%; */
-  /* margin: 15px; */
+  margin: 15px;
   flex: 1 0 35%;
   /* margin: 0 auto; */
 
@@ -197,7 +197,7 @@ footer{
   background-size: cover;
   height: 30vh;
   /* width: 40%; */
-  /* margin: 15px; */
+  margin: 15px;
   flex: 1 0 35%;
   /* margin: 0 auto; */
 
@@ -247,6 +247,7 @@ a {
 
   .hero{
     background-size: cover;
+    width: 100%;
   }
 
   .myphoto img{
@@ -255,11 +256,26 @@ a {
   }
   .hero h2 {      
     font-size: 15px;
-    margin-top: 350px;
+    /* margin-top: 350px; */
     }
 
-  
+    .other-images{
+      display: block;
+      width: 100%;
+    }
+
+    .main-image{
+      width: 100%;
+    }
+
+    .contact-wraper h3{
+      padding: 10px;
+    }
+
 }
 
+/* @media screen and (max-width:575px) {
+ 
+} */
 
 
