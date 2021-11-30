@@ -141,63 +141,83 @@ footer{
 }
 
 .image-one{
-  background-image: url(../images/full-stack-web-development..gif);
+  /* background-image: url(../images/full-stack-web-development..gif);
   background-position: center;
-  background-size: cover;
+  background-size: cover; */
   height: 40vh;
-  /* width: 45%; */
+  width: 640px;
   margin: 15px;
-  flex: 1 0 80%;
+  /* flex: 1 0 80%; */
   
 
 }
 
 .image-two{
-  background-image: url(../images/full-stack-web-development..gif);
-  background-position: center;
-  background-size: cover;
+  /* background-image: url(../images/full-stack-web-development..gif); */
+  /* background-position: center;
+  background-size: cover; */
   height: 30vh;
-  /* width: 45%; */
+  width: 300px;
   margin: 15px;
-  flex: 1 0 35%;
+ 
+  /* flex: 1 0 35%; */
   
   
 
 }
 
+.second-image{
+  display: flex;
+  align-items: flex-start;
+  /* justify-content: flex-start; */
+  position: relative;
+}
+
+.subtitle{
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 10px;
+  background-color: cadetblue;
+  padding: 10px;
+  border: 2px solid black;
+  color: antiquewhite;
+
+}
+
+
 
 .image-three{
-  background-image: url(../images/full-stack-web-development..gif);
-  background-position: center;
-  background-size: cover;
+  /* background-image: url(../images/full-stack-web-development..gif); */
+  /* background-position: center;
+  background-size: cover; */
   height: 30vh;
-  /* width: 45%; */
+  width: 300px;
   margin: 15px;
-  flex: 1 0 35%;
+  /* flex: 1 0 35%; */
   /* margin: 0 auto; */
 
 }
 
 .image-four{
-  background-image: url(../images/full-stack-web-development..gif);
+  /* background-image: url(../images/full-stack-web-development..gif);
   background-position: center;
-  background-size: cover;
+  background-size: cover; */
   height: 30vh;
-  /* width: 45%; */
+  width: 300px;
   margin: 15px;
-  flex: 1 0 35%;
+  /* flex: 1 0 35%; */
   /* margin: 0 auto; */
 
 }
 
 .image-five{
-  background-image: url(../images/full-stack-web-development..gif);
+  /* background-image: url(../images/full-stack-web-development..gif);
   background-position: center;
-  background-size: cover;
+  background-size: cover; */
   height: 30vh;
-  /* width: 40%; */
+  width: 300px;
   margin: 15px;
-  flex: 1 0 35%;
+  /* flex: 1 0 35%; */
   /* margin: 0 auto; */
 
 }
@@ -256,6 +276,14 @@ a {
   .hero h2 {      
     font-size: 15px;
     /* margin-top: 350px; */
+    }
+
+    .images{
+      width: 100%;
+    }
+
+    .work-wraper{
+      width: 100%;
     }
 
     .other-images{
