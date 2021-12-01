@@ -141,32 +141,27 @@ footer{
 }
 
 .image-one{
-  /* background-image: url(../images/full-stack-web-development..gif);
-  background-position: center;
-  background-size: cover; */
   height: 40vh;
   width: 640px;
   margin: 15px;
-  /* flex: 1 0 80%; */
+  border: 2px solid #116e79;
+
   
 
 }
 
-.image-two{
-  /* background-image: url(../images/full-stack-web-development..gif); */
-  /* background-position: center;
-  background-size: cover; */
+.image{
   height: 30vh;
   width: 300px;
   margin: 15px;
+  border: 2px solid #116e79;
  
-  /* flex: 1 0 35%; */
   
   
 
 }
 
-.second-image{
+.image-sub{
   display: flex;
   align-items: flex-start;
   /* justify-content: flex-start; */
@@ -175,52 +170,15 @@ footer{
 
 .subtitle{
   position: absolute;
-  margin-top: 10px;
-  margin-left: 10px;
   background-color: cadetblue;
   padding: 10px;
   border: 2px solid black;
-  color: antiquewhite;
+  color: var(--primary-color);
+  top: 170px;
+  left: 30px;
 
 }
 
-
-
-.image-three{
-  /* background-image: url(../images/full-stack-web-development..gif); */
-  /* background-position: center;
-  background-size: cover; */
-  height: 30vh;
-  width: 300px;
-  margin: 15px;
-  /* flex: 1 0 35%; */
-  /* margin: 0 auto; */
-
-}
-
-.image-four{
-  /* background-image: url(../images/full-stack-web-development..gif);
-  background-position: center;
-  background-size: cover; */
-  height: 30vh;
-  width: 300px;
-  margin: 15px;
-  /* flex: 1 0 35%; */
-  /* margin: 0 auto; */
-
-}
-
-.image-five{
-  /* background-image: url(../images/full-stack-web-development..gif);
-  background-position: center;
-  background-size: cover; */
-  height: 30vh;
-  width: 300px;
-  margin: 15px;
-  /* flex: 1 0 35%; */
-  /* margin: 0 auto; */
-
-}
 
 
 a {
@@ -280,6 +238,7 @@ a {
 
     .images{
       width: 100%;
+      
     }
 
     .work-wraper{
@@ -291,9 +250,7 @@ a {
       width: 100%;
     }
 
-    .main-image{
-      width: 100%;
-    }
+
 
     .contact-wraper h3{
       padding: 10px;
@@ -301,6 +258,12 @@ a {
 
 }
 
-/* @media screen and (max-width:575px) {
+@media screen and (max-width:575px) {
+
+  .image-one{
+    height: 30vh;
+    width: 300px;
+  }
+  
  
-} */
+}
